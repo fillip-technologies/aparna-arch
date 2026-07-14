@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Bitter:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'avenir-lt-w01_85-heavy1475544';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.parastorage.com/fonts/v2/74290729-59ae-4129-87d0-2eec3974dce1/v1/avenir-lt-w01_85-heavy1475544.woff2') format('woff2');
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    @apply bg-white text-neutral-dark antialiased;
+  }
+}
+
+/* Custom scrollbar matching green theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #0E4828;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #008250;
+}
