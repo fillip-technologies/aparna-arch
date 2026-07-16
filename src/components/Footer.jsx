@@ -9,16 +9,19 @@ export default function Footer() {
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 border-b border-white/10 pb-8">
 
-          {/* Left Block: Logo & Address */}
+          {/* Left Block: Logo & Description */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 max-w-md">
             <Logo className="scale-95 origin-left" />
-            <p className="text-[12px] tracking-wide text-neutral-light/70 font-light">
+            <p className="text-[13px] leading-relaxed text-neutral-light/85 font-light">
+              Aparna Group is a reputed architectural and construction firm offering comprehensive services in Patna and across the Bihar region. Established in 2003, the company is known for its quality-driven approach and reliable project execution.
+            </p>
+            <p className="text-[12px] tracking-wide text-neutral-light/60 font-light pt-1">
               Corporate Address: 203, Hitech Arcade, Rajendra Path, Opposite - CDA Building, Patna 800001
             </p>
           </div>
 
           {/* Right Block: Contact, Socials & RERA */}
-          <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-4">
+          <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-4 md:pt-7">
             {/* Phone */}
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 text-sm tracking-widest font-medium">
               <div className="flex items-center gap-2">
